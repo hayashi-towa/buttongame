@@ -8,13 +8,13 @@ export const difficultySettings: Record<Difficulty, GameSettings> = {
   },
   normal: {
     buttonCount: 16,
-    lightDuration: 1500,  // 2000から1500に変更
-    lightInterval: 1000,  // 1300から1000に変更
+    lightDuration: 1800,  // 2000から1500に変更
+    lightInterval: 1200,  // 1300から1000に変更
   },
   hard: {
     buttonCount: 25,
-    lightDuration: 1000,  // 1500から1000に変更
-    lightInterval: 800,   // 1000から800に変更
+    lightDuration: 1300,  // 1500から1000に変更
+    lightInterval: 1000,   // 1000から800に変更
   },
 };
 
